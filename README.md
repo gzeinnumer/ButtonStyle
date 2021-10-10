@@ -2,7 +2,7 @@
 
 [Source](https://stackoverflow.com/questions/42684717/rounded-corners-on-material-button)
 
-|<img src="https://github.com/gzeinnumer/EdiTextStyle/blob/master/preview/example1.jpg" width="200"/>|
+|<img src="https://github.com/gzeinnumer/ButtonStyle/blob/master/preview/preview1.jpg"/>|
 |--|
 
 ```xml
