@@ -21,6 +21,11 @@
     app:layout_constraintTop_toTopOf="parent" />
 ```
 ```xml
+<style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+    <item name="android:background">@drawable/button_rounded_shape_green</item>
+</style>
+```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
