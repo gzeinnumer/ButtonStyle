@@ -93,13 +93,38 @@
 
 <style name="MyShapeAppearanceLeft">
     <item name="cornerFamily">rounded</item>
+    <item name="cornerSizeTopLeft">16dp</item>
+    <item name="cornerSizeBottomLeft">16dp</item>
+    <item name="cornerSizeTopRight">0dp</item>
+    <item name="cornerSizeBottomRight">0dp</item>
+</style>
+
+<style name="MyButtonRight" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <item name="shapeAppearanceOverlay">@style/MyShapeAppearanceRight</item>
+</style>
+
+<style name="MyShapeAppearanceRight">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSizeTopLeft">0dp</item>
+    <item name="cornerSizeBottomLeft">0dp</item>
+    <item name="cornerSizeTopRight">16dp</item>
+    <item name="cornerSizeBottomRight">16dp</item>
+</style>
+```
+Wanna Try?
+```xml
+<style name="MyButtonLeft" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <item name="shapeAppearanceOverlay">@style/MyShapeAppearanceLeft</item>
+</style>
+
+<style name="MyShapeAppearanceLeft">
+    <item name="cornerFamily">rounded</item>
     <item name="cornerFamilyTopRight">cut</item>
     <item name="cornerFamilyBottomRight">cut</item>
     <item name="cornerSizeTopLeft">16dp</item>
     <item name="cornerSizeBottomLeft">16dp</item>
 </style>
-```
-```xml
+
 <style name="MyButtonRight" parent="Widget.MaterialComponents.Button.OutlinedButton">
     <item name="shapeAppearanceOverlay">@style/MyShapeAppearanceRight</item>
 </style>
