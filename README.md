@@ -86,6 +86,11 @@
 
 </LinearLayout>
 ```
+Change Color Programtitcally
+```java
+binding.btnBtnRight.setBackgroundTintList(ContextCompat.getColorStateList(DistributorAdvisorSubMenuActivity.this, R.color.colorPrimary));
+binding.btnBtnLeft.setBackgroundTintList(ContextCompat.getColorStateList(DistributorAdvisorSubMenuActivity.this, R.color.disabled_grey_light));
+```
 ```xml
 <style name="MyButtonLeft" parent="Widget.MaterialComponents.Button.OutlinedButton">
     <item name="shapeAppearanceOverlay">@style/MyShapeAppearanceLeft</item>
